@@ -9,6 +9,7 @@
     <title>วิสาหกิจชุมชนกลุ่มสืบสานต่อผ้าทอมือ</title>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="icon" type="image/ico" href="images/icon/comunity_icon.png" />
     <!-- Custom styles for this template -->
     <link href="album.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pridi">
@@ -17,7 +18,7 @@
 <body>
     <main role="main">
         <div class="card">
-            <nav class="navbar bg-light fixed-top navbar-light navbar-expand-lg">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-danger">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler27"
                     aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -56,7 +57,8 @@
                 <div>
                     <img src="images/icon/travel-icon.png" class="rounded-circle"
                         style="width: 50px; margin-right: 10px;">
-                    <a class="navbar-brand" href="#" style="font-family: Pridi; color: #4463c0;">การเดินทาง</a>
+                    <a class="navbar-brand text-white" href="#"
+                        style="font-family: Pridi; color: #4463c0;">การเดินทาง</a>
                 </div>
             </nav>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -82,14 +84,15 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="mapouter">
-                            <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
+                            <div class="gmap_canvas">
+                                <iframe width="100%" height="500" id="gmap_canvas"
                                     src="https://maps.google.com/maps?q=%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9C%E0%B8%B7%E0%B8%AD&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                                    href="https://www.bitgeeks.net/embed-google-map/">bitgeeks.net</a></div>
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            </div>
                             <style>
                                 .mapouter {
                                     position: relative;
-                                    text-align: center;
+                                    text-align: right;
                                     height: 500px;
                                     width: 100%;
                                 }
@@ -152,7 +155,8 @@
                         <img class="img-thumbnail" style="color: #00afff;" src="images/people.png" width="500px">
                     </div>
                     <div style="margin-top:30px; text-align:center;" class="col-12">
-                        <font size="5" style="font-family: Pridi;">ประธานการจัดตั้งกลุ่มวิสาหกิจ</font>
+                        <font size="5" style="font-family: Pridi;" class="text-warning">ประธานการจัดตั้งกลุ่มวิสาหกิจ
+                        </font>
                         <br>
                         <font size="4" style="font-family: Pridi;">(คุณแม่จีระวรรณ จันทะเลิศ)</font>
                     </div>
@@ -162,9 +166,13 @@
             </div>
         </div>
     </main>
-    <footer class="text-muted">
+    <footer class="text-muted bg-danger">
         <div class="container">
-            <p class="float-right"> <a href="#">Back to top</a> </p>
+            <div class="row">
+                <div class="col-12">
+                </div>
+            </div>
+            <p class="float-right"> <a href="#" class="text-white">Back to top</a> </p>
         </div>
     </footer>
     <!-- Bootstrap core JavaScript
